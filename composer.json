@@ -1,0 +1,24 @@
+{
+    "name": "mtc/import-tool",
+    "description": "",
+    "keywords": [],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Martins Fridenbergs",
+            "email": "martins.fridenbergs@mtcmedia.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mtc\\Import\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mtc\\Import\\Providers\\ImportServiceProvider"
+            ]
+        }
+    }
+}
