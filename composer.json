@@ -1,8 +1,8 @@
 {
-    "name": "mtc/import-tool",
-    "description": "",
-    "keywords": [],
-    "license": "proprietary",
+    "name": "mtcmedia/laravel-import",
+    "description": "Universal data import tool for Laravel framework",
+    "keywords": ["import", "data migration"],
+    "license": "GPL",
     "authors": [
         {
             "name": "Martins Fridenbergs",
@@ -13,6 +13,9 @@
         "psr-4": {
             "Mtc\\Import\\": "src/"
         }
+    },
+    "require": {
+        "league/csv": "^9.1"
     },
     "extra": {
         "laravel": {
